@@ -25,7 +25,7 @@ nav {
 
 nav>ul {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 
 }
 
@@ -75,13 +75,20 @@ nav li a {
 
 .banner {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
 }
 
-.banner-content {
-     
+.banner-title {
+    width: 582px;
+    height: 133px;
+    flex-shrink: 0;
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+
 }
 
 
@@ -92,25 +99,23 @@ nav li a {
         padding: 20px;
 
     }
-     
-    nav
-    {
-    flex-direction: column;
+
+    nav {
+        flex-direction: column;
     }
 
-    .banner
-    {
+    .banner {
         flex-direction: column-reverse;
         text-align: center;
     }
-   
+
 }
 
 
 
 
 
-    
+
 
 
 
@@ -118,15 +123,16 @@ nav li a {
 
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width :960px) {
-   header {
+    header {
         padding: 20px;
 
     }
-    
-    nav{
-        flex-direction: column
 
-    };
+    nav {
+        flex-direction: column
+    }
+
+    ;
 
 
 }
