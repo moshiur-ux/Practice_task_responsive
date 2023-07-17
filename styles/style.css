@@ -87,14 +87,26 @@ nav li a {
 
 }
 
+.facts
+{
+    background: #FFF;
+    border: solid #FFF;
+    margin-top: 100px;
+    box-shadow: #E02C6D;
+
+}
+
+
+.facts-card-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
 
 
 @media screen and (max-width:576px) {
-
-    header {
-        
-
-    }
     .nav-title {
         font-size: 10px;
     }
@@ -127,17 +139,11 @@ nav li a {
 
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width :960px) {
-    header {
-
-        margin: 20px;
-        padding: 20px;
-        
-
-    }
 
     nav {
         flex-direction: column;
     }
+
      .banner {
         flex-direction: column-reverse;
         text-align: center;
